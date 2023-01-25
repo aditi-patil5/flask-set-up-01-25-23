@@ -1,0 +1,14 @@
+body {
+    background-color: white;
+    margin: 0rem;
+}
+
+h1 {
+    background-color: teal;
+    padding:1rem;
+}
+
+#userFan {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
