@@ -9,7 +9,7 @@ To get into virtual environment run: <br>
 
 ``pipenv install`` Once to install the dependencies of the `Pipfile` and creates/updates `Pipfile.lock`.
 
-``pipenv run pip freeze > requirements.txt`` to get the requirements into a legacy file system. 
+``pipenv run pip freeze > requirements.txt`` or ``pipenv requirements > requirements.txt``to get the requirements into a legacy file system. 
 
 To run the server <br>
 `flask --app server run`
