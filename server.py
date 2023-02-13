@@ -1,7 +1,13 @@
 from flask import Flask, render_template, request, jsonify
 import os
+import psycopg2
 
-database_url = os.environ["DATABASE_URL"]
+# conn = psycopg2.connect(os.environ['DATABASE_URL'])
+# conn.close()
+
+# with conn.cursor as cur:
+#     pass
+
 app = Flask(__name__)
 
 @app.route("/")
