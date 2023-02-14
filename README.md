@@ -17,3 +17,6 @@ To run the server <br>
 To exit virtual environment:<br>
 `exit`
 
+# Auth0
+pipenv install authlib
+pipenv install requests
